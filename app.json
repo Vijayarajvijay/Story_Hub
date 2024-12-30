@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Genre_Based_Narratives_Application",
+    "slug": "Genre_Based_Narratives_Application",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "no"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.dlkreact.Genre_Based_Narratives_Application"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "checkAutomatically": "ON_ERROR_RECOVERY"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cf136373-6daa-4b73-a1df-60acc35debe2"
+      },
+      "apiUrl": "https://stories-2me1.onrender.com"
+    },
+    "owner": "mahaboob123"
+  }
+}
